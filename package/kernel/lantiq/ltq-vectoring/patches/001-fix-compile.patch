@@ -9,8 +9,8 @@
 +obj-m += ltq_vectoring.o
 +ltq_vectoring-objs = ifxmips_vectoring.o ifxmips_vectoring_stub.o
 +
-+obj-m += ltq_vectoring_test.o
-+ltq_vectoring_test-objs = ifxmips_vectoring_test.o
++obj-m +=
++ltq_vectoring_test-objs =
 --- a/src/vectoring/ifxmips_vectoring.c
 +++ b/src/vectoring/ifxmips_vectoring.c
 @@ -30,9 +30,11 @@
